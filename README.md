@@ -69,3 +69,8 @@ stage.show()
 ```
 
 Enjoy your jshell&JavaFX life!!
+
+Any comments or feedbacks are welcome!!
+
+## Contributors
+bitter_fox(@bitter_fox) -- Owner
