@@ -43,6 +43,9 @@ jshell>
 ```
 
 Type your JavaFX code(in the following snippet, jshell's outputs are omitted):
+
+Note that you don't need to import anything about JavaFX package because the startup will import everything instead!
+
 ```
 jshell> Button button = new Button("Click me!")
 jshell> button.setOnAction(e -> System.out.println("HelloWorld!"))
