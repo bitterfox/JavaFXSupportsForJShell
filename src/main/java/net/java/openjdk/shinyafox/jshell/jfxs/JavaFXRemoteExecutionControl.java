@@ -70,7 +70,7 @@ public class JavaFXRemoteExecutionControl extends RemoteExecutionControl {
                 }
             });
 
-        return ret.get(0).get();
+        return ret.isEmpty() ? "" : ret.get(0).get();
     }
 
 }
