@@ -3,10 +3,10 @@
 ## Overview
 This is a JavaFX supporting library for jshell.
 Include following:
-- ExecutionControl to allow you to run JavaFX code in jshell
+- ExecutionControl to allow you to run JavaFX codes in jshell
 - Useful scripts to build/try this library
-- Useful initial startups to write JavaFX code
- - imports all of jshell packages
+- Useful initial startups to write your JavaFX codes
+ - Imports all of JavaFX packages
 
 jshell is a official Java REPL-Tool.
 For more detail about jshell, visit http://openjdk.java.net/projects/kulla/
@@ -43,6 +43,9 @@ jshell>
 ```
 
 Type your JavaFX code(in the following snippet, jshell's outputs are omitted):
+
+Note that you don't need to import anything about JavaFX package because the startup will import everything instead!
+
 ```
 jshell> Button button = new Button("Click me!")
 jshell> button.setOnAction(e -> System.out.println("HelloWorld!"))
@@ -69,3 +72,8 @@ stage.show()
 ```
 
 Enjoy your jshell&JavaFX life!!
+
+Any comments, feedbacks, issues or PRs are welcome!!
+
+## Contributors
+bitter_fox(@bitter_fox) -- Owner
