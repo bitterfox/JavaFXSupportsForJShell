@@ -4,8 +4,8 @@
 This is a JavaFX supporting library for jshell.
 Include following:
 - ExecutionControl to allow you to run JavaFX codes in jshell
-- Useful scripts to build/try this library
-- Useful initial startups to write your JavaFX codes
+- Scripts to try this repository
+- Useful initial startups to write your JavaFX codes in jshell
  - Imports all of JavaFX packages
 
 jshell is a official Java REPL-Tool.
