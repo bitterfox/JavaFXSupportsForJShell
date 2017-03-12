@@ -31,9 +31,9 @@ $ cd JavaFXSupportsForJShell
 
 Build it:
 ```
-$ JAVA_HOME=/path/to/your/jdk9 sh scripts/compile.sh
-$ JAVA_HOME=/path/to/your/jdk9 sh scripts/package.sh
+mvn package
 ```
+(Requires Apache Mavan 3.3.9+ and JDK9/bin in your $PATH)
 
 Run it:
 ```
