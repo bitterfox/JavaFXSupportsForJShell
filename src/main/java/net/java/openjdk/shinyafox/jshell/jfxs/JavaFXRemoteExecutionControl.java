@@ -30,6 +30,7 @@ public class JavaFXRemoteExecutionControl extends RemoteExecutionControl {
         Map<String, Consumer<InputStream>> input = new HashMap<>();
         input.put("in", System::setIn);
         Platform.startup(() -> {});
+        Platform.setImplicitExit(false);
         forwardExecutionControlAndIO(new JavaFXRemoteExecutionControl(), inStream, outStream, outputs, input);
     }
 
